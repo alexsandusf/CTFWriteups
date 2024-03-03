@@ -1,2 +1,2 @@
 # CTFWriteups
-CTF write ups
+Place for practicing writeups for CTFs
