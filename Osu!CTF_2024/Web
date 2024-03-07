@@ -1,6 +1,16 @@
 Web Challenge: profile-page
 
 
+customize your osu! profile page!
+
+https://profile-page.web.osugaming.lol/
+
+https://adminbot.web.osugaming.lol/profile-page
+
+
+------------------------------------------------------
+
+
 1. First register account
 2. Looking at source code we can go to /api/update if we include our accoutns csrf token and bio with a string.
 3. Now we need to find the XSS.
