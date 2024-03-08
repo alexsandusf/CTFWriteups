@@ -10,4 +10,4 @@ CTF competitions are not only a platform for honing technical skills and knowled
 
 *CTFs are organized by folder and seperated based on category (Web, reverse, crpyto, etc) and an explentation of how I solved the problem.
 
-*I usually pick problems that I enjoyed to post as a writeup
+*I usually pick problems that I liked solving to post as a writeup
