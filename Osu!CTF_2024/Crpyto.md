@@ -12,7 +12,7 @@ osu{124493}
 Profile name = chocomint
 
 flag = osu{chocomint}
-
+```python3
 from sympy import mod_inverse
 from sympy import factorint
 
@@ -37,3 +37,4 @@ if d is None:
 user_id = d  # Replace this with the actual user ID if it's provided
 
 print("User ID associated with the private key exponent (wrapped with osu{{}}): osu{{{}}}".format(user_id))
+```
