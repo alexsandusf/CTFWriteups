@@ -1,1 +1,167 @@
+# Safe-Password
+![image](https://github.com/alexsandusf/CTFWriteups/assets/162010016/d105d83c-e819-41dc-9804-8b5471a4dcda)
 
+# Solution
+
+We are givin a text file with a list of passwords
+
+SunshineinmyHe#d123!
+	P@ssw0rdSecureN!c#
+	B3@chH0use987
+	Tru5tN0On3!
+	D0g&CatL0ver
+	ChocoLate&Van1lla
+	P1zz@&Pasta!
+	G0ld3nSunset$
+	M0on&Stars2024
+	F1rep1t$&Marshmall0ws
+	C0ffee&M00nl1ght
+	R@inb0wSkies789
+	OceanW@ves&Sun
+	H3@rt&S0ulP@ss
+	Mus1c&Lyrics2024
+	SunFl0wer$&Smiles
+	B3autifulD@y!2024
+	Pine@ppleC0c0nut
+	D@nc3&Joy2024
+	L0ve&P3ace2024!
+	S1lverLining$!
+	M0rningGl0ry!987
+	Wh1sp3r$&W1nd
+	St@rlight&Dr3am$
+	S@f3&Sound2024
+	TropicalBreez3!
+	S@nd&Surf2024
+	Fr33dom&Bliss
+	W0nderl@nd&J0y
+	H@ppyH34rt$&L0ve
+	Ch@rm&Ch33r2024
+	B3ll@V1ta!2024
+	B@l@nc3&H@rmony
+	C@lm&Tranqu1l2024
+	R@di@ntSmil3s!
+	Ech0&Tr@nqu1lity
+	R0seG@rd3n&Bliss
+	SunnyD@yz2024!
+	M@gic&Sp@rkles
+	G0ld3nG@t3s&K3ys
+	L@ugh&L0v3!
+	C0zy&Comf0rt2024
+	F0r3st&Fr3shAir
+	P@ss10n&Purp0se
+	Sm1l3&Shin3!2024
+	B1rds&Blu3Sk1es
+	Tr@v3l&Adventur3!
+	H@ppyTr@ils2024
+	S3r3n1ty&Bliss
+	G@rd3n0fEd3n!2024
+	S0ulF00d&Sunshine
+	Wh1sp3r$&W@ves
+	Blu3b3rry&Bliss2024
+	D@wn&Twilight!
+	B3auty&Br@ins2024
+	J0yfulJ0urn3y!
+	C@ndy&Rainb0ws
+	F@iryT@l3$&Dr3am$
+	H3@rt$&Fl0wers
+	W0nd3r&Whimsy2024
+	P3ace&Pr0sp3rity!
+	B@lmyBreeze$!
+	Fr33Sp1r1t&J0y
+	Tr3asure$&Tr@ils
+	L@ugh&L0ve!2024
+	S1lk&Sunsh1n3
+	R0syCh33ks&Smil3s
+	Tr@v3l&T@les2024
+	B3achB0und&Bliss
+	C@ptur3&Charm2024
+	W@rmW1nt3rD@y$
+	H@ppyH34rt$&Fr33
+	C@ndyC@n3s&J0y
+	G0ld3nG@t3s&Ch@rms
+	Wh1sp3r$&W1sh3s
+	S@ndC@stl3$&Sun
+	Tr3@sur3&Tranqu1l
+	L1f3&L0v3!2024
+	SunnyS@ilor$!
+	R@inb0w&Sunshine
+	Fr33&F3@th3r3d
+	H3@rt$&Fl0w3rs2024
+	B3@chB0und&Bli$$
+	S@ndyT0@st3d&Sun
+	F@iryDust&Dr3am$
+	H@ppyH3@rt$&Smil3s
+	SunnyD@yz&Smil3s
+	R0syCh33ks&Tul1p$
+	G0ld3nG@t3s&G@rd3n$
+	S@il0r$&Sunshin3
+	L@dybug$&L@ught3r
+	B3@uty&Bliss2024
+	Ch@rm&Ch33r$
+	F@nt@sy&Fr33d0m
+	H@ppyH3@rt$&S0ul
+	J0yfulJ0urn3y&L0ve
+	C@ndyC@n3s&Ch33r
+	Tr@v3l&T0@st3d&Sun
+	SunnySk1es&Smil3s
+	R@di@ntR@ys&J0y
+    Sunshine123!%$
+    PuppyLove456$
+    ChocolateCake789@
+    AdventureTime!23
+    SoccerFan1010$
+    GuitarHero567@
+    Bubblegum123!
+    Starlight789$
+    DragonFly321@
+    CoffeeLover2020!
+    BaseballFan123$
+    BeachBum456@
+    RainbowDash!23
+    Moonlight789$
+    Butterfly123@
+    IceCreamParty!23
+    Watermelon789$
+    SkiingFan456@
+    Fireworks!2020
+    PizzaLover123$
+    UnicornDreams456@
+    JellyBean789!
+    SummerBreeze123$
+    Snowboarding456@
+    CupcakeLover!23
+    DancingQueen789$
+    Coconut123@
+    Marshmallow!456
+    BananaSplit789$
+    SkyDiver123@
+    HotChocolate!456
+    Lemonade789$
+    RollerCoaster123!
+    Moonshine456$
+    Tangerine!789
+    PumpkinPie123@
+    Starlight!456
+    Waterfall789$
+    DragonFruit123@
+    CaramelApple!456
+    OceanWave789$
+    CherryBlossom123!
+    Blueberry456$
+    Sunflower!789
+    MidnightSky123@
+    CandyCane456!
+    SpringBlossom789$
+    Coconut!123
+    Rainbow!456
+    Rw2sPassword123!@#
+
+    You can just manually check each password with : https://haveibeenpwned.com/Passwords
+    Or using pwnedOrNot: https://github.com/thewhiteh4t/pwnedOrNot to automate the process
+
+
+    The password that has been pwned more than 80 times was: Bubblegum123!
+
+    # Flag 
+
+    CTF{fdc852bc63a266c8c38db64bef90d62d53ddeef00aa85df7b941ac780b3d75d8}
