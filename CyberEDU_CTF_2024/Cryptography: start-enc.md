@@ -1,2 +1,18 @@
 # start-enc
 
+![image](https://github.com/alexsandusf/CTFWriteups/assets/162010016/15d884a9-3c90-462e-9fdf-32a74f7471ac)
+
+
+# Solution
+
+All we need to do is enter it into CyberChef and use from binary
+
+JiM1MzsmIzUyOyYjMzI7JiM1NDsmIzU2OyYjMzI7JiM1NDsmIzUzOyYjMzI7JiM1MDsmIzQ4OyYjMzI7JiM1NDsmIzU0OyYjMzI7JiM1NDsmIzk5OyYjMzI7JiM1NDsmIzQ5OyYjMzI7JiM1NDsmIzU1OyYjMzI7JiM1MDsmIzQ4OyYjMzI7JiM1NDsmIzU3OyYjMzI7JiM1NTsmIzUxOyYjMzI7JiM1MTsmIzk3OyYjMzI7JiM1MDsmIzQ4OyYjMzI7JiM1MjsmIzUxOyYjMzI7JiM1MzsmIzUyOyYjMzI7JiM1MjsmIzU0OyYjMzI7JiM1NTsmIzk4OyYjMzI7JiM1MTsmIzUzOyYjMzI7JiM1MTsmIzU2OyYjMzI7JiM1MTsmIzUyOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1MTsmIzQ5OyYjMzI7JiM1MTsmIzUwOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1MTsmIzUzOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1MTsmIzUyOyYjMzI7JiM1MTsmIzQ4OyYjMzI7JiM1NDsmIzUzOyYjMzI7JiM1MTsmIzU3OyYjMzI7JiM1MTsmIzUyOyYjMzI7JiM1MTsmIzQ4OyYjMzI7JiM1MTsmIzU2OyYjMzI7JiM1MTsmIzUzOyYjMzI7JiM1NDsmIzUxOyYjMzI7JiM1MTsmIzUyOyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1NDsmIzQ5OyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1NDsmIzQ5OyYjMzI7JiM1MTsmIzQ4OyYjMzI7JiM1MTsmIzU0OyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1NDsmIzUxOyYjMzI7JiM1MTsmIzUzOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1MTsmIzUzOyYjMzI7JiM1NDsmIzQ5OyYjMzI7JiM1MTsmIzU2OyYjMzI7JiM1MTsmIzU2OyYjMzI7JiM1MTsmIzQ4OyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1MTsmIzU3OyYjMzI7JiM1MTsmIzQ5OyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1MTsmIzU3OyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1NDsmIzQ5OyYjMzI7JiM1NDsmIzUzOyYjMzI7JiM1NDsmIzUxOyYjMzI7JiM1NDsmIzU0OyYjMzI7JiM1MTsmIzU1OyYjMzI7JiM1MTsmIzUxOyYjMzI7JiM1MTsmIzU1OyYjMzI7JiM1NDsmIzUyOyYjMzI7JiM1MTsmIzU2OyYjMzI7JiM1MTsmIzU1OyYjMzI7JiM1MTsmIzUwOyYjMzI7JiM1MTsmIzUyOyYjMzI7JiM1MTsmIzU0OyYjMzI7JiM1MTsmIzU0OyYjMzI7JiM1MTsmIzU3OyYjMzI7JiM1MTsmIzU0OyYjMzI7JiM1NDsmIzUxOyYjMzI7JiM1NDsmIzUwOyYjMzI7JiM1MTsmIzU1OyYjMzI7JiM1NTsmIzEwMDs=
+
+# From Base64
+
+&#53;&#52;&#32;&#54;&#56;&#32;&#54;&#53;&#32;&#50;&#48;&#32;&#54;&#54;&#32;&#54;&#99;&#32;&#54;&#49;&#32;&#54;&#55;&#32;&#50;&#48;&#32;&#54;&#57;&#32;&#55;&#51;&#32;&#51;&#97;&#32;&#50;&#48;&#32;&#52;&#51;&#32;&#53;&#52;&#32;&#52;&#54;&#32;&#55;&#98;&#32;&#51;&#53;&#32;&#51;&#56;&#32;&#51;&#52;&#32;&#54;&#50;&#32;&#51;&#51;&#32;&#51;&#49;&#32;&#51;&#50;&#32;&#54;&#50;&#32;&#54;&#50;&#32;&#51;&#53;&#32;&#54;&#50;&#32;&#54;&#50;&#32;&#51;&#51;&#32;&#51;&#52;&#32;&#51;&#48;&#32;&#54;&#53;&#32;&#51;&#57;&#32;&#51;&#52;&#32;&#51;&#48;&#32;&#51;&#56;&#32;&#51;&#53;&#32;&#54;&#51;&#32;&#51;&#52;&#32;&#51;&#51;&#32;&#54;&#49;&#32;&#54;&#50;&#32;&#54;&#49;&#32;&#51;&#48;&#32;&#51;&#54;&#32;&#51;&#51;&#32;&#54;&#51;&#32;&#51;&#53;&#32;&#54;&#50;&#32;&#51;&#53;&#32;&#54;&#49;&#32;&#51;&#56;&#32;&#51;&#56;&#32;&#51;&#48;&#32;&#51;&#51;&#32;&#51;&#57;&#32;&#51;&#49;&#32;&#51;&#51;&#32;&#51;&#57;&#32;&#51;&#51;&#32;&#54;&#50;&#32;&#54;&#49;&#32;&#54;&#53;&#32;&#54;&#51;&#32;&#54;&#54;&#32;&#51;&#55;&#32;&#51;&#51;&#32;&#51;&#55;&#32;&#54;&#52;&#32;&#51;&#56;&#32;&#51;&#55;&#32;&#51;&#50;&#32;&#51;&#52;&#32;&#51;&#54;&#32;&#51;&#54;&#32;&#51;&#57;&#32;&#51;&#54;&#32;&#54;&#51;&#32;&#54;&#50;&#32;&#51;&#55;&#32;&#55;&#100;
+
+# Using Magic
+
+The flag is: CTF{584b312bb5bb340e94085c43aba063c5b5a880391393baecf737d87246696cb7}
