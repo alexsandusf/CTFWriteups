@@ -16,6 +16,7 @@ https://adminbot.web.osugaming.lol/profile-page
 3. Now we need to find the XSS.
 
 4. Vulnerable code allowing iframe for youtube links
+```css   
 const window = new JSDOM('').window;
 const purify = DOMPurify(window);
 const renderBBCode = (data) => {
@@ -38,7 +39,7 @@ const renderBio = (data) => {
         '<iframe sandbox="allow-scripts" width="640px" height="480px" src="https://www.youtube.com/embed/$1" frameborder="0" allowfullscreen></iframe>'
     );
 };
-
+```
 First HTTP Post request I used to find XSS
 
 POST /api/update HTTP/1.1
